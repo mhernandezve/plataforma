@@ -103,3 +103,4 @@ ENV/
 *.pid
 
 output
+*.DS_Store

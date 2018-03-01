@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Vivas Nos Queremos Ecuador'
 SITENAME = 'Vivas Nos Queremos Ecuador'
 SITEURL = ''
+THEME = 'themes/vivas'
 
 PATH = 'content'
 
