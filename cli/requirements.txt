@@ -1,0 +1,2 @@
+pytest
+clint==0.5.1
