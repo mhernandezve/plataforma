@@ -2,4 +2,4 @@
 bin
 include
 pip-selfcheck.json
-.pytest_cache/
+.pytest_cache
