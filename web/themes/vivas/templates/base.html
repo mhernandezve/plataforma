@@ -5,6 +5,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/uikit.css" />
+  {% block extra_css %}
+  {% endblock %}
   <script src="{{ SITEURL }}/theme/js/uikit.js"></script>
   <script src="{{ SITEURL }}/theme/js/uikit-icons.js"></script>
 </head>
@@ -35,6 +37,7 @@
     {% block content %}
     {% endblock %}
   </div>
+  {% block extra_js %}
+  {% endblock %}
 </body>
-
 </html>
