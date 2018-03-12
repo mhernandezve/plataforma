@@ -1,4 +1,4 @@
-from context import load
+from context import reports
 from context import files
 
 """
@@ -8,5 +8,5 @@ Entonces obtengo el archivo resultado.csv en la misma carpeta
 """
 def test_load_files_in_directory():
     dir_path = './src/tests/resources'
-    load.load(dir_path)
+    reports.load(dir_path)
     assert files.exists('./src/tests/resources/resultado.csv') == True
