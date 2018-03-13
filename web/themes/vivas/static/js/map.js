@@ -20,7 +20,10 @@ var coordinates = [
 var clusterGroup = L.markerClusterGroup()
 
 coordinates.forEach(function(coordinate) {
-  L.marker(coordinate).addTo(clusterGroup)
+  L.marker(coordinate).bindTooltip('Clic para más información')
+  .on('click', function() {
+    UIkit.modal('#map-modal').show()
+  }).addTo(clusterGroup)
 })
 
 clusterGroup.addTo(map)
