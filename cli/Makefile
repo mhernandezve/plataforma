@@ -10,12 +10,6 @@ TEST_FILES := scr/tests
 
 export PATH := $(PYTHON_BINS):$(PATH)
 
-#dependencies:
-#	./bin/pip install -r requirements.txt
-
-#test:
-#	./bin/pytest -v
-
 .PHONY: test
 test:
 	$(PYTEST) -v
