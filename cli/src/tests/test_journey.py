@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import subprocess
 
 from context import files
@@ -18,12 +21,12 @@ el resultado está en carpeta/potenciales-historias.csv
 """
 
 def test_stats_generation_jouney():
-    cmd_load = './bin/python src/vivas.py --cargar -dir=target'
+    cmd_load = './venv/bin/python src/vivas.py --cargar -dir=target'
     out_load = subprocess.check_output(cmd_load, shell=True).decode("utf-8")
     assert out_load.strip('\n') == 'vivas> Carga finalizada. Ver target/resultado.csv'
     assert files.exists('target/resultado.csv') == True
 
-    cmd_report = './bin/python src/vivas.py --reportar estadisticas'
+    cmd_report = './venvvenv/bin/python src/vivas.py --reportar estadisticas'
     out_report = subprocess.check_output(cmd_report, shell=True).decode("utf-8")
     assert out_report.strip('\n') == 'vivas> Ver target/estadisticas.csv'
     assert files.exists('target/estadisticas.csv') == True
