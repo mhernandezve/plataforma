@@ -1,5 +1,7 @@
 # Plataforma Vivas Nos Queremos Ecuador
 
+[![Join the chat at https://gitter.im/VivasNosQueremosEcuador/plataforma](https://badges.gitter.im/VivasNosQueremosEcuador/plataforma.svg)](https://gitter.im/VivasNosQueremosEcuador/plataforma?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Vivas nos queremos ecuador .org
 
 Es un sitio web
