@@ -14,3 +14,25 @@ Que ofrece información actualizada y empática de feminicidios
 e información sobre Vivas Nos Queremos
 
 Nuestra herramienta tiene una voz diversa, es innovadora y suma una propuesta artística, utiliza un lenguaje simple y accesible, es una referencia en temas de género, no solo muestra cifras si no que cuenta las historias comunes y cotidianas y es diseñada y construida por mujeres.
+
+# Stack Tecnológico
+
+- python3
+```
+brew install python3
+```
+- Pip3
+
+### Instalación de dependencias:
+```
+pip3 install -r requirements.txt
+```
+
+### Levantar servidor local:
+```
+make devserver
+```
+### Parar servidor local:
+```
+make stopserver
+```
